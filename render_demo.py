@@ -3,8 +3,9 @@ import sys
 import math
 from PIL import Image, ImageDraw, ImageFont
 
-FRAMES_DIR = '/home/sandi/apps/telegram-ai-thread-summary/demo_frames'
-OUTPUT_DIR = '/home/sandi/apps/telegram-ai-thread-summary/render_stream'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FRAMES_DIR = os.path.join(BASE_DIR, 'demo_frames')
+OUTPUT_DIR = os.path.join(BASE_DIR, 'render_stream')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Load keyframes

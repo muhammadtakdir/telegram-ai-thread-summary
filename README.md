@@ -21,15 +21,21 @@ The **Contextual Thread Summary Pill** introduces a native, non-intrusive floati
 
 ---
 
-## 🚀 Live Demo & Video
+## 🚀 Getting Started & Local Development
 
-- **Interactive Demo Video:** `telegram_ai_thread_summary_demo.mp4` (1080p 60fps / 30fps h.264)
-- **Local Dev Server:**
-  ```bash
-  cd /home/sandi/apps/telegram-ai-thread-summary
-  npm install
-  npm run dev # http://127.0.0.1:4173
-  ```
+### 1. Clone & Run Prototype
+```bash
+git clone https://github.com/muhammadtakdir/telegram-ai-thread-summary.git
+cd telegram-ai-thread-summary
+npm install
+npm run dev # runs on http://127.0.0.1:4173
+```
+
+### 2. Visual Previews & Demo Video
+- **Screenshot 1 (AI Pill):** `preview_pill.png`
+- **Screenshot 2 (Contextual Drawer):** `preview_open.png`
+- **Interactive Demo Video:** `telegram_ai_thread_summary_demo.mp4` (1080p 30fps H.264)
+- **Google Drive Mirror:** [Demo Video on Drive](https://drive.google.com/file/d/1fDWwLGdOGAPSQnez-C01WlK0msrlOrbi/view?usp=drivesdk)
 
 ---
 
