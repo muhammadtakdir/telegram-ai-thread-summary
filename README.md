@@ -35,7 +35,7 @@ npm run dev # runs on http://127.0.0.1:4173
 - **Screenshot 1 (AI Pill):** `preview_pill.png`
 - **Screenshot 2 (Contextual Drawer):** `preview_open.png`
 - **Interactive Demo Video:** `telegram_ai_thread_summary_demo.mp4` (1080p 30fps H.264)
-- **Google Drive Mirror:** [Demo Video on Drive](https://drive.google.com/file/d/1fDWwLGdOGAPSQnez-C01WlK0msrlOrbi/view?usp=drivesdk)
+- **Google Drive Mirror:** [Demo Video on Drive](https://drive.google.com/file/d/1R5vu1SYjHvs4mouXG5RhJIbcrTICz73K/view?usp=drivesdk)
 
 ---
 
