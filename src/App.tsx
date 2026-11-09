@@ -118,7 +118,7 @@ export default function App() {
             fontSize: '14px',
             color: '#fff'
           }}>
-            TS
+            TG
           </div>
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontWeight: 600, fontSize: '15px', color: '#fff', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
@@ -165,7 +165,7 @@ export default function App() {
                 <span style={{ fontSize: '11px', color: '#a2abb3' }}>09:22</span>
               </div>
               <p style={{ fontSize: '12px', color: '#a2abb3', marginTop: '3px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                Muhammad Takdir: Sudah diaudit dan bersih dari kredensial...
+                Takdir: Automated test suite and production build confirmed...
               </p>
             </div>
             {unreadCount > 0 && (
@@ -207,8 +207,8 @@ export default function App() {
               <Hash size={20} />
             </div>
             <div style={{ flex: 1 }}>
-              <div style={{ fontWeight: 500, fontSize: '13px', color: '#fff' }}>General / Umum</div>
-              <div style={{ fontSize: '11.5px', color: '#6c7883' }}>Hasir Achmad: Terima kasih...</div>
+              <div style={{ fontWeight: 500, fontSize: '13px', color: '#fff' }}>General Chat</div>
+              <div style={{ fontSize: '11.5px', color: '#6c7883' }}>Pavel Durov: Thanks everyone!</div>
             </div>
           </div>
         </div>
@@ -267,7 +267,7 @@ export default function App() {
                 {DEMO_TOPIC.name}
               </div>
               <div style={{ fontSize: '12px', color: '#6c7883' }}>
-                {DEMO_TOPIC.participantsCount} anggota • Topik Aktif
+                {DEMO_TOPIC.participantsCount} members • Active Topic
               </div>
             </div>
           </div>
@@ -294,7 +294,7 @@ export default function App() {
               }}
             >
               <Sparkles size={14} color={isSummaryOpen ? '#60a5fa' : '#c084fc'} />
-              <span>{isSummaryOpen ? 'Tutup Ringkasan' : 'AI Summary'}</span>
+              <span>{isSummaryOpen ? 'Close Summary' : 'AI Summary'}</span>
             </button>
             <button style={{ background: 'none', border: 'none', color: '#6c7883', cursor: 'pointer', padding: '8px' }}>
               <MoreVertical size={18} />
@@ -325,7 +325,7 @@ export default function App() {
               borderRadius: '12px',
               fontWeight: 500
             }}>
-              Senin, 09 November 2026
+              Monday, November 09, 2026
             </span>
           </div>
 
@@ -463,7 +463,7 @@ export default function App() {
                 <Sparkles size={14} color="#ffffff" />
               </div>
               <span className="ai-gradient-text" style={{ fontWeight: 700, fontSize: '13.5px', letterSpacing: '-0.2px' }}>
-                Ringkas Topik Ini
+                Summarize Topic
               </span>
               <span style={{
                 backgroundColor: '#2481cc',
@@ -521,7 +521,7 @@ export default function App() {
               type="text"
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
-              placeholder="Tulis pesan..."
+              placeholder="Write a message..."
               style={{
                 width: '100%',
                 padding: '11px 16px',
@@ -605,7 +605,7 @@ export default function App() {
                     Contextual AI Summary
                   </h3>
                   <div style={{ fontSize: '11px', color: '#60a5fa', fontWeight: 500 }}>
-                    Diproses dari 38 pesan • 3 detik lalu
+                    Synthesized from 38 messages • 2s ago
                   </div>
                 </div>
               </div>
@@ -655,7 +655,7 @@ export default function App() {
                   }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
                       <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', color: '#828e99', letterSpacing: '0.5px' }}>
-                        Inti Percakapan
+                        Core Discussion
                       </span>
                       <span style={{ fontSize: '11px', color: '#34d399', backgroundColor: 'rgba(52, 211, 153, 0.15)', padding: '2px 8px', borderRadius: '10px', fontWeight: 600 }}>
                         {SUMMARY_DATA.sentiment}
@@ -669,7 +669,7 @@ export default function App() {
                   {/* Action Points / Key Decisions with Direct Jump */}
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                     <div style={{ fontSize: '11.5px', fontWeight: 700, color: '#828e99', textTransform: 'uppercase', letterSpacing: '0.5px', marginTop: '4px' }}>
-                      Poin Keputusan & Aksi
+                      Action Items & Key Decisions
                     </div>
 
                     {SUMMARY_DATA.points.map((pt: SummaryPoint, idx: number) => (
@@ -708,7 +708,7 @@ export default function App() {
                         </p>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '10px', paddingTop: '8px', borderTop: '1px solid rgba(255, 255, 255, 0.06)' }}>
                           <span style={{ fontSize: '11px', color: '#828e99' }}>
-                            Sumber: <strong style={{ color: '#ffffff' }}>{pt.highlightedSender}</strong>
+                            Source: <strong style={{ color: '#ffffff' }}>{pt.highlightedSender}</strong>
                           </span>
                           <span style={{
                             fontSize: '11.5px',
@@ -721,7 +721,7 @@ export default function App() {
                             padding: '3px 8px',
                             borderRadius: '6px'
                           }}>
-                            Lihat Chat <ArrowRight size={13} />
+                            Jump to Chat <ArrowRight size={13} />
                           </span>
                         </div>
                       </div>
@@ -741,7 +741,7 @@ export default function App() {
               justifyContent: 'space-between'
             }}>
               <span style={{ fontSize: '11px', color: '#828e99' }}>
-                Konteks thread diproses aman
+                Thread context processed securely on-device
               </span>
               <button
                 onClick={() => {
@@ -759,7 +759,7 @@ export default function App() {
                   cursor: 'pointer'
                 }}
               >
-                Tandai Sudah Dibaca
+                Mark as Read & Catch Up
               </button>
             </div>
           </div>
