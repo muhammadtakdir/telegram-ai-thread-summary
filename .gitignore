@@ -1,0 +1,6 @@
+node_modules/
+dist/
+render_stream/
+demo_frames/
+*.log
+.DS_Store
